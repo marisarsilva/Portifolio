@@ -1,0 +1,107 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.container{
+    margin:1px;
+    padding: 1px;
+    width: 100vw;
+    max-width: 100%;
+    height: vh;
+    background: rgb(196, 172, 194);
+    
+}
+.container > a{
+    color: white;
+}
+.menu{
+    max-width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(218, 7, 200);
+}
+
+.menu > span{
+    max-width: 100%;
+    margin: 10px;
+    left: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+
+}
+
+.menu > span > a{
+    font-size: 1.4rem;
+    line-height: 3.2rem;
+    color: white;
+    right: 20px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+main{
+    
+    
+main > h1{
+    text-align: justify;
+    font-size: 3rem;
+}
+
+main > a{
+    text-align: justify;
+    font-size: 2rem;
+    display: flex;
+}
+main > h1, a{
+    display: flex-start;
+}
+
+/*RODAPÉ*/
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(218, 7, 200);
+    font-size: 1.1rem;
+    text-align: end;
+    align-items: baseline;
+   
+
+}
+    
+
+    
+}
+footer > p{
+    color: white;
+    
+
+
+}
+
+@media(max-width:768){
+    html{
+        font-size: 50%;
+    }
+   
+}
